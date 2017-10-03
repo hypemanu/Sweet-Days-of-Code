@@ -1,0 +1,116 @@
+<div class="card">
+HypeManu
+<div>
+
+<div class="card2">
+Web Design
+<div>
+
+<style>
+
+.card {
+margin: auto;
+text-align: center;
+border-radius: 40px;
+font-size: 10vw;
+color: #ff7f50;
+background: transparent;
+width: 100%;
+height: 50%;
+zoom: 100%;
+animation: fadeInUp 1.5s;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Geo);
+
+
+.card2 {
+margin: auto;
+text-align: center;
+border-radius: 0;
+font-size: 5vw;
+color: #ff7f50;
+background: blue;
+font-family:Geo;
+width: 100%;
+height: 7vw;
+zoom: 100%;
+animation: flipInX 5s ;
+}
+
+
+@keyframes fadeInUp {
+  
+from {
+    opacity: 0;
+    transform: translate3d(0, 90%, 0);
+ color: red; }
+
+
+to {
+    opacity: 1;
+    transform:none;
+  color: #ff7f49;}
+}
+
+
+
+
+@keyframes flipInX {
+  
+from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    
+animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  
+40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  
+60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  
+80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  
+to {
+    transform: perspective(400px);
+  }
+}
+
+
+
+.flipInX {
+  
+backface-visibility: visible !important;
+  
+animation-name: flipInX;
+
+
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
