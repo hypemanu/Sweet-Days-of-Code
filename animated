@@ -1,0 +1,6 @@
+This is an animated property sheet, as inspired by Daneden's Animate.css
+
+The first div element, HypeManu, carries the fadeInUp property.
+The second div element, Web Design, also float up but has flipInX property.
+
+Visit <a href="https://codepen.io/git-hype/pen/pWWKzQ">Animated</a>
